@@ -1,0 +1,36 @@
+# Background Image (optional, you can use a solid color instead)
+image=/home/andy/Pictures/nature.jpg
+
+# Background color (if no image is used, or to fill behind the image)
+color=000000aa # Black with 170/255 (aa) transparency (rrggbb[aa] format)
+
+# Indicator settings
+indicator-radius=100
+indicator-thickness=10
+indicator-caps-lock # Show Caps Lock state on indicator
+
+# Color definitions for the indicator ring and inside based on state
+# The format is RRGGBB[AA] (RedGreenBlue[Alpha])
+ring-color=7dcfffff           # Default ring color
+inside-color=00000088         # Default inside color (semi-transparent black)
+text-color=ffffffff           # Default text color (white)
+
+ring-clear-color=73dacaff     # Color when cleared/ready for input
+inside-clear-color=00000000   # Transparent inside when cleared
+text-clear-color=a9b1d6ff
+
+ring-ver-color=e0af68ff       # Color when verifying (checking password)
+inside-ver-color=00000000
+text-ver-color=344252ff
+
+ring-wrong-color=f7768eff     # Color when password fails (wrong)
+inside-wrong-color=00000000
+text-wrong-color=ee2e24ff
+
+# Highlight colors for key presses
+key-hl-color=bb9af7ff         # Key press highlight
+bs-hl-color=e0af68ff          # Backspace highlight
+
+# Font and text
+font=FiraCode Nerd Fond
+font-size=20

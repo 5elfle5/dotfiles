@@ -1,0 +1,40 @@
+{
+  "position": "top",
+  "modules-left": ["niri/workspaces", "niri/window"],
+  "modules-right": ["network", "cpu", "memory", "battery", "pulseaudio", "niri/language", "clock"],
+  "clock": {
+    "format": "{:%a %d %H:%M}"
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}  {capacity}%",
+    "format-warning": "{icon} {capacity}%",
+    "format-critical": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{icon} {time}",
+    "format-full": " {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "network": {
+    "format": "Online",
+    "format-disconnected": "Disconnected"
+  },
+  "cpu": {
+    "format": "Cpu: {usage}%",
+    "tooltip": false
+  },
+  "memory": {
+    "format": "Mem: {used}Gb"
+  },
+  "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "format-muted": "",
+      "format-icons": {
+          "default": ["", "", " "]
+      }
+  }
+}

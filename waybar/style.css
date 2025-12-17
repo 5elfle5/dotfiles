@@ -65,28 +65,28 @@ window#waybar {
 }
 
 #cpu {
-    color: @ylw;
-    border-bottom: 4px solid @ylw;
-}
-
-#memory {
-    color: @mag;
-    border-bottom: 4px solid @mag;
-}
-
-#battery {
     color: @blu;
     border-bottom: 4px solid @blu;
 }
 
+#memory {
+    color: @blu;
+    border-bottom: 4px solid @blu;
+}
+
+#battery {
+    color: @grn;
+    border-bottom: 4px solid @grn;
+}
+
 #pulseaudio {
-    color: @cyn;
-    border-bottom: 4px solid @cyn;
+    color: @grn;
+    border-bottom: 4px solid @grn;
 }
 
 #language {
-    color: @grn;
-    border-bottom: 4px solid @grn;
+    color: @ylw;
+    border-bottom: 4px solid @ylw;
 }
 
 #clock {

@@ -1,6 +1,8 @@
  # Install:
 - nerd fonts
 - waybar
+- wofi
+- mako
 - kitty
 - starship
 - swaylock

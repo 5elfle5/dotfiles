@@ -1,5 +1,6 @@
  # Install:
-- nerd fonts
+- jetbrains nerd font
+- cascadia code nerd font
 - waybar
 - wofi
 - mako
